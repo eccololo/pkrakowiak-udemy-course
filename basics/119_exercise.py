@@ -1,11 +1,6 @@
-# Chcesz utworzyć program wyświetlający listę wszystkich plików z rozszerzeniem .py w bieżącym katalogu - oznaczenie bieżącego katalogu to '.'. Wykorzystaj w tym celu moduł wbudowany os. Każdą nazwę pliku wydrukuj w nowej linii tak jak pokazano poniżej.
-#
-#
-#
-# Oczekiwany wynik:
-#
-#
-#
+# [IN]: os.listdir(".")
+
+# [OUT]:
 # exercise.py
 # evaluate.py
 # result.py
