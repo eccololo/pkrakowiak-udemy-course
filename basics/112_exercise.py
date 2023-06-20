@@ -1,8 +1,4 @@
-# Załóżmy, że pracujesz nad projektem platformy e-learningowej, która ma bazę kursów i chcesz znaleźć wszystkie unikalne tagi, które są powiązane z kursami. Masz listę słowników, gdzie każdy słownik reprezentuje kurs, a klucz 'tags' w każdym słowniku zawiera listę tagów powiązanych z kursem:
-#
-#
-#
-# courses = [
+# [IN]:  [
 #     {
 #         'id': 1,
 #         'name': 'Python for Beginners',
@@ -19,17 +15,8 @@
 #         'tags': ['Python', 'Machine Learning']
 #     }
 # ]
-#
-#
-# Potrzebujesz znaleźć wszystkie unikalne tagi, które są powiązane z kursami. Przypisz je do zmiennej o nazwie unique_tags.
-#
-#
-#
-# Oczekiwana postać zbioru unique_tags (widok sformatowany dla lepszego wyświetlenia):
-#
-#
-#
-# {
+
+# [OUT]:  {
 #     'Data Science',
 #     'Programming',
 #     'Python',
