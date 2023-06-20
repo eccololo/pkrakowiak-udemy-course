@@ -1,11 +1,6 @@
-# Chcesz utworzyć program wyświetlający listę wszystkich plików i folderów w bieżącym katalogu - oznaczenie bieżącego katalogu to '.'. Wykorzystaj w tym celu moduł wbudowany os. Każdą nazwę pliku lub folderu wydrukuj w nowej linii tak jak pokazano poniżej.
-#
-#
-#
-# Oczekiwany wynik:
-#
-#
-#
+# [IN]: os.getcwd()
+
+# [OUT]:
 # exercise.py
 # evaluate.py
 # __pycache__
