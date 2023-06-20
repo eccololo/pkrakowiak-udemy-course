@@ -1,15 +1,5 @@
-# Załóżmy, że pracujesz nad projektem, który obejmuje analizę danych z elektrowni słonecznej. Masz listę krotek reprezentujących dzienną produkcję energii:
-#
-#
-#
-# data = [(1, 20), (2, 15), (3, 25), (4, 18), (5, 22), (6, 21)]
-#
-#
-# Każda krotka zawiera dwie wartości: pierwsza wartość to dzień miesiąca, a druga wartość to ilość energii wyprodukowanej przez elektrownię w kilowatogodzinach (kWh). Potrzebujesz znaleźć zbiór wszystkich dni, w których elektrownia wyprodukowała co najmniej 20 kWh energii. Otrzymany zbiór przypisz do zmiennej output_set.
-#
-#
-#
-# Uwaga! Wystarczy tylko utworzyć zbiór. Nie trzeba go drukować do konsoli.
+# [IN]: [(1, 20), (2, 15), (3, 25), (4, 18), (5, 22), (6, 21)]
+# [OUT]: {1, 3, 5, 6}
 
 data = [(1, 20), (2, 15), (3, 25), (4, 18), (5, 22), (6, 21)]
 
