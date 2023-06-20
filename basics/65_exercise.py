@@ -1,7 +1,17 @@
-# Napisz program, który ma na celu obliczenie ilości
-# składników potrzebnych do przygotowania co najmniej
-# 3000 gram ilości wypieku ciasta na podstawie przepisu.
-# Wynik wydrukuj do konsoli tak jak pokazano poniżej.
+# [IN]:
+# proportions = {
+#     'flour': 500,
+#     'salt': 4,
+#     'sugar': 200,
+#     'butter': 150
+# }
+
+# [OUT]:
+# To prepare 3000 g of dough, you need:
+# Flour - 1756.44 g
+# Salt - 14.05 g
+# Sugar - 702.58 g
+# Butter - 526.93 g
 
 proportions = {
     'flour': 500,
