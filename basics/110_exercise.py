@@ -1,8 +1,4 @@
-# Załóżmy, że pracujesz nad projektem kosmicznym i otrzymujesz listę gwiazd wraz z ich odległościami od Ziemi w latach świetlnych:
-#
-#
-#
-# stars = [
+# [IN]:  [
 #     ('Alpha Centauri', 4.37),
 #     ('Barnard\'s Star', 5.96),
 #     ('Wolf 359', 7.78),
@@ -14,20 +10,8 @@
 #     ('Ross 154', 9.69),
 #     ('Ross 248', 10.32),
 # ]
-#
-#
-# Twoim zadaniem jest stworzenie zbioru wszystkich gwiazd znajdujących się bliżej niż 8 lat świetlnych od Ziemi. Otrzymany zbiór przypisz do zmiennej close_stars.
-#
-#
-#
-# Oczekiwana postać zbioru:
-#
-#
-#
-# {"Barnard's Star", 'Alpha Centauri', 'Wolf 359'}
-#
-#
-# Uwaga! Wystarczy tylko utworzyć zbiór. Nie trzeba go drukować do konsoli.
+
+# [OUT]: {"Barnard's Star", 'Alpha Centauri', 'Wolf 359'}
 
 stars = [
     ('Alpha Centauri', 4.37),
