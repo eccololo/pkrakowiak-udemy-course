@@ -1,23 +1,10 @@
-# Utwórz listę z podanych nazw technologii:
-#
-# 'python'
-#
-# 'java'
-#
-# 'sql'
-#
-# 'sas'
-#
-#
-#
-# Następnie zapisz każdy element listy w nowej linii pliku techs.txt. Oczekiwana zawartość pliku techs.txt:
-#
-#
-#
+# [IN]: ['python', 'java', 'sql', 'sas']
+# [OUT]:  74_techs.txt file:
 # python
 # java
 # sql
 # sas
+
 
 techs = ['python', 'java', 'sql', 'sas']
 with open("74_techs.txt", "w") as f:
