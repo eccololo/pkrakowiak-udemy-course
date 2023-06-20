@@ -1,11 +1,7 @@
-# Wykorzystując moduł wbudowany os wydrukuj ścieżkę do bieżącego katalogu roboczego.
-#
-#
-#
-# Oczekiwany wynik:
-#
-#
-#
+# [IN]:
+# os.getcwd()
+
+# [OUT]:
 # /eval
 
 import os
