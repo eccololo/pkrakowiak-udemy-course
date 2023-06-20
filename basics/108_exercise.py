@@ -1,8 +1,4 @@
-# Załóżmy, że masz listę związków chemicznych, gdzie każdy związek jest reprezentowany przez słownik zawierający jego nazwę i listę atomów tworzących związek:
-#
-#
-#
-# compounds = [
+# [IN]:  [
 #     {
 #         'name': 'Water',
 #         'atoms': ['H', 'O', 'H'],
@@ -16,17 +12,8 @@
 #         'atoms': ['C', 'H', 'O', 'H', 'H', 'C', 'H', 'H', 'H'],
 #     },
 # ]
-#
-#
-# Potrzebujesz stworzyć nowy słownik, który odwzorowuje każdy unikalny atom we wszystkich związkach na całkowitą liczbę wystąpień we wszystkich związkach. Otrzymany słownik wydrukuj do konsoli.
-#
-#
-#
-# Oczekiwany wynik:
-#
-#
-#
-# {'H': 3, 'O': 2, 'C': 2}
+
+# [OUT]: {'H': 3, 'O': 2, 'C': 2}
 
 
 compounds = [
