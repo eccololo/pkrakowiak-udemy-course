@@ -1,21 +1,8 @@
-# Załóżmy, że budujesz narzędzie do szyfrowania i deszyfrowania wiadomości za pomocą prostego szyfru podstawieniowego i chcesz użyć modułu cipher.py do obsługi operacji szyfrowania i deszyfrowania.
-#
-#
-#
-# Zaimportuj odpowiednio funkcję encrypt() i używając klucza 'phqgiumeaylnofdxkrcvstzwb' (argument key funkcji encrpyt()) zaszyfruj poniższą wiadomość:
-#
+# [IN]:
+# 'phqgiumeaylnofdxkrcvstzwb'
 # 'Python is cool'
-#
-#
-#
-# Zaszyfrowaną wiadomość wydrukuj do konsoli.
-#
-#
-#
-# Oczekiwany wynik:
-#
-#
-#
+
+# [OUT]:
 # Xbvedf ac qddn
 
 from cipher_115 import encrypt
