@@ -1,7 +1,4 @@
-# Podane są poniższe informacje medyczne pacjenta:
-#
-#
-#
+# [IN]:
 # first_name = 'Jan'
 # last_name = 'Kowalski'
 # weight = 75.5
@@ -12,20 +9,17 @@
 #     'hypertension_medications': ['enalapril', 'hydrochlorothiazide'],
 #     'diabetes_medications': ['metformin'],
 # }
-#
-#
-# Za pomocą metody write() zapisz powyższe dane pacjenta do pliku o nazwie patient_data.txt tak jak pokazano poniżej:
-#
-#
-#
+
+# [OUT]: 77_patient_data.txt file:
 # First name: Jan
 # Last name: Kowalski
 # Weight: 75.5 kg
 # Height: 1.85 m
 # Date of birth: 1990-01-01
-# Chronic conditions: hypertension, diabetes
-# Hypertension medications: enalapril, hydrochlorothiazide
+# Chronic conditions: hypertension,diabetes
+# Hypertension medications: enalapril,hydrochlorothiazide
 # Diabetes medications: metformin
+
 
 first_name = 'Jan'
 last_name = 'Kowalski'
