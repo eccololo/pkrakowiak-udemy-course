@@ -1,8 +1,4 @@
-# Napisz funkcję calculate_average(), która policzy średnią dowolnej liczby przekazanych argumentów.
-#
-#
-#
-# Uwaga: Aby zaliczyć ćwiczenie wystarczy zdefiniować funkcję. Nie trzeba jej wywoływać. Zaimplementowane testy sprawdzają poprawność działania funkcji.
+# Napisz funkcję calculate_average ktora policzy srednia artymetyczna.
 
 
 def calculate_average(*args):
