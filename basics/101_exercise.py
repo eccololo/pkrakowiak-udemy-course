@@ -1,11 +1,3 @@
-# Podany jest plik o nazwie 'patients.txt' zawierający dane medyczne pacjentów. System nad którym pracujesz będzie przetwarzał pliki w takiej postaci. Twoim zadaniem jest zaimplementować generator o nazwie patient_generator(), który odczytuje dane pacjentów z pliku tekstowego i zwraca słowniki zawierające imię i wiek pacjenta.
-#
-#
-#
-# Przykłady użycia generatora:
-#
-#
-#
 # [IN]: patients = patient_generator('patients.txt')
 # [IN]: next(patients)
 # [OUT]: 'name': 'John Smith', 'age': 30}
@@ -17,16 +9,8 @@
 # [OUT]: {'name': 'Emily Taylor', 'age': 22}
 # [IN]: next(patients)
 # [OUT]: StopIteration Error
-#
-#
-# W odpowiedzi utwórz generator i wykorzystując pętlę for wydrukuj dane pacjentów przechowywanych w pliku 'patients.txt' do konsoli tak jak pokazano poniżej.
-#
-#
-#
-# Oczekiwany wynik:
-#
-#
-#
+
+# [OUT]:
 # {'name': 'John Smith', 'age': 30}
 # {'name': 'Jane Doe', 'age': 45}
 # {'name': 'Mike Johnson', 'age': 55}
