@@ -1,8 +1,4 @@
-# Dana jest lista zawierająca nazwy plików w pewnym katalogu:
-#
-#
-#
-# files = [
+# [IN]: [
 #     'run_me.py',
 #     'README.md',
 #     'help.txt.',
@@ -11,13 +7,8 @@
 #     'main.py',
 #     'py',
 # ]
-#
-#
-# Stwórz generator o nazwie py_file_generator(), który przefiltruje podane nazwy i będzie zwracał tylko nazwy plików z rozszerzeniem '.py'.
-#
-#
-#
-# Uwaga: Aby zaliczyć ćwiczenie wystarczy zdefiniować generator. Nie trzeba go wywoływać. Zaimplementowane testy sprawdzają poprawność działania generatora.
+
+# [OUT]: generator py_file_generator()
 
 def py_file_generator(list_of_files):
     for item in list_of_files:
