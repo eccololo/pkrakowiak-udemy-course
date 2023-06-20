@@ -1,6 +1,10 @@
-# Napisz program, który wczytuje ten plik tekstowy, przetwarza te dane
-# i oblicza całkowitą energię wygenerowaną przez elektrownię wiatrową
-# (druga kolumna pliku, energia wyrażona w MW). Wynik wydrukuj do konsoli tak jak pokazano poniżej.
+# [IN]: Plik 72_data.txt
+
+# [OUT]:
+# 2023-03-31 12:00:00,2.3
+# 2023-03-31 12:01:00,3.1
+# 2023-03-31 12:02:00,2.7
+# Total power generated: 8.10 MW
 
 with open("72_data.txt", "r") as f:
     suma = 0
