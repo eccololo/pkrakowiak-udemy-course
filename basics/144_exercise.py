@@ -24,10 +24,10 @@ class ComplexNumber:
     # Enter your solution here
 
     def __add__(self, other):
-        return f'ComplexNumber({self.real + other.real}, {self.imag + other.imag})'
+        return ComplexNumber(self.real + other.real, self.imag + other.imag)
 
     def __sub__(self, other):
-        return f'ComplexNumber({self.real - other.real}, {self.imag - other.imag})'
+        return ComplexNumber(self.real - other.real, self.imag - other.imag)
 
 
 z1 = ComplexNumber(2, 3)
