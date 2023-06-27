@@ -4,5 +4,5 @@ enzyme_activity = 12.3456
 
 # Enter your solution here
 
-print('Welcome to The Effects of Temperature on Enzyme Activity!')
-print(f'The Group A enzyme activity level is {enzyme_activity:.2f} units.')
+print(f'Welcome to {experiment_name}!')
+print(f'The {treatment_group} enzyme activity level is {enzyme_activity:.2f} units.')
