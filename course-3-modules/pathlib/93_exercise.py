@@ -12,3 +12,7 @@ with Path.open(path, "r") as f:
     content = f.read()
 
 print(content)
+
+# Other solution
+# content = path.read_text()
+# print(content)
