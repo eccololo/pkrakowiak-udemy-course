@@ -10,5 +10,5 @@ class TestSimpleMathCalculator(unittest.TestCase):
     def test_add(self):
         self.assertEqual(self.calc.add(-3, -2), -5)
         self.assertEqual(self.calc.add(-3, 2), -1)
-        self.assertEqual(self.calc.add(3, -2), 0)
+        self.assertEqual(self.calc.add(3, -2), 0) # Should fail.
         self.assertEqual(self.calc.add(3, 2), 6)
